@@ -1,0 +1,2 @@
+import pickle
+pickle.dump(model, open("house_price_model.pkl", "wb"))
